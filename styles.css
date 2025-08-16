@@ -1,0 +1,176 @@
+/* ====== Estilos generales ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url("assets/images/fondo-antioquia.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #dbdaa0;
+  line-height: 1.6;
+}
+
+/* ====== Nubes ====== */
+.clouds {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.clouds img {
+  width: 120px;
+  height: auto;
+}
+
+/* ====== Barra superior ====== */
+.topbar {
+  background: #2e7d32; /* verde oscuro */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar h1 {
+  font-size: 22px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Secciones ====== */
+.seccion {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.seccion h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* ====== Botones ====== */
+.btn {
+  display: inline-block;
+  background: #2e7d32;
+  color: rgb(1, 17, 12);
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1b5e20;
+}
+
+/* ====== Tarjetas ====== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: rgb(179, 165, 44);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #284129;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+/* ====== Links Recursos ====== */
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 8px 0;
+}
+
+.links a {
+  color: #dee066ea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Formulario ====== */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #20a131;
+  border-radius: 6px;
+}
+
+/* ====== Footer ====== */
+.footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* ====== Sección especial Antioquia ====== */
+#antioquia {
+  background:  #2f6b34d2;; /* verde muy claro */
+  border-radius: 16px;
+  padding: 40px 20px;
+}
+
+#antioquia h2 {
+  color: #e4a51e;
+}
+
+#antioquia .card {
+  background: #c78e4d;
+  border: 2px solid #c8e6c9;
+}

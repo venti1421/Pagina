@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Página de Emprendimiento</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+
+    <!-- Barra superior -->
+    <header class="topbar">
+      <h1>EMPRENDIMIENTO</h1>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Guía</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#antioquia">Antioquia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección inicio -->
+      <section id="inicio" class="seccion">
+        <div class="content">
+          <h2>EMPRENDIMIENTO</h2>
+          <p>
+            Emprender o emprendimiento es el proceso de crear, desarrollar y poner en marcha una idea, proyecto o negocio, generalmente con el objetivo de generar valor, resolver un problema o satisfacer una necesidad, asumiendo ciertos riesgos en el camino.
+          </p>
+          <p>
+            Implica identificar oportunidades, innovar, planificar, gestionar recursos y superar obstáculos para alcanzar el éxito.
+          </p>
+          <a class="btn" href="#acerca">Saber más</a>
+        </div>
+      </section>
+      <!-- Nubes alineadas -->
+    <div class="clouds">
+      <img src="assets/images/nube1.png" alt="Nube 1" />
+      <img src="assets/images/nube2.png" alt="Nube 2" />
+      <img src="assets/images/nube3.png" alt="Nube 3" />
+      <img src="assets/images/nube4.png" alt="Nube 4" />
+    </div>
+
+      <!-- Sección Guía -->
+      <section id="acerca" class="seccion">
+        <div class="content">
+          <h2>GUÍA</h2>
+          <h3>Elementos clave del emprendimiento</h3>
+          <div class="grid">
+            <article class="card">
+              <h3>IDEA</h3>
+              <p>Punto de partida que resuelve una necesidad o mejora algo existente.</p>
+              <li><a href="https://ideas4allinnovation.com/blog/claves-idea-innovadora/" target="_blank" rel="noopener">Enlace Interesante</a></li>
+              
+            </article>
+            <article class="card">
+              <h3>INNOVACIÓN</h3>
+              <p>No siempre es algo 100% nuevo, a veces es mejorar lo que ya existe.</p>
+              <li><a href="https://conradoymas.com/innovacion/" target="_blank" rel="noopener">Enlace Interesante</a></li>
+            </article>
+            <article class="card">
+              <h3>RIESGO</h3>
+              <p>Implica invertir tiempo, esfuerzo y a menudo dinero sin tener garantía total de éxito.</p>
+              <li><a href="https://www.gestiopolis.com/los-8-riesgos-mas-comunes-al-emprender-negocio/" target="_blank" rel="noopener">Enlace Interesante</a></li>
+            </article>
+            <article class="card">
+              <h3>VALOR</h3>
+              <p>El emprendimiento debe generar un beneficio, sea económico, social o ambiental.</p>
+              <li><a href="https://emp360.cl/sostenibilidad/el-triple-beneficio-del-emprendimiento-sostenible-economico-social-y-ambiental//" target="_blank" rel="noopener">Enlace Interesante</a></li>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Recursos -->
+      <section id="recursos" class="seccion">
+        <div class="content">
+          <h2>Recursos</h2>
+          <ul class="links">
+            <li><a href="https://www.camaramedellin.com.co/" target="_blank" rel="noopener">Camara de Comercio Medellin</a></li>
+            <li><a href="https://www.antioquia.gov.co/" target="_blank" rel="noopener">Gobernacion de Antioquia</a></li>
+            </a></li>
+            <li><a href="https://www.sena.edu.co/" target="_blank" rel="noopener">SENA</a></li>
+            <li><a href="#contacto">Formulario de contacto</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!--sección Antioquia -->
+      <section id="antioquia" class="seccion">
+        <div class="content">
+          <h2>Emprendimiento en Antioquia</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>Panorama actual</h3>
+              <p>Antioquia es la segunda región con más startups en Colombia. Medellín concentra el 25% de las del país.</p>
+            </article>
+            <article class="card">
+              <h3>Emprendimiento social</h3>
+              <p>Existen más de 50 iniciativas sociales en Antioquia, aunque muchas aún no están formalizadas jurídicamente.</p>
+            </article>
+            <article class="card">
+              <h3>Apoyos institucionales</h3>
+              <p>Programas como Capital Semilla y Agcenter impulsan proyectos de innovación y agroindustria sostenible.</p>
+            </article>
+            <article class="card">
+              <h3>Casos destacados</h3>
+              <p>Ejemplos como EatCloud y Fungi Life muestran el potencial paisa en innovación tecnológica y sostenibilidad.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección contacto -->
+      <section id="contacto" class="seccion">
+        <div class="content">
+          <h2>Contacto</h2>
+          <p>Déjanos tu mensaje:</p>
+          <form class="form">
+            <label>Nombre
+              <input type="text" placeholder="Tu nombre" required />
+            </label>
+            <label>Email
+              <input type="email" placeholder="tu@correo.com" required />
+            </label>
+            <label>Mensaje
+              <textarea rows="5" placeholder="Escribe tu mensaje..."></textarea>
+            </label>
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> EMPRENDIMIENTO. </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
